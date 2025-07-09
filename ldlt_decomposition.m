@@ -20,6 +20,6 @@ for j=1:n
     L(j+1:n,j)=(A(j+1:n,j)-L(j+1:n,1:j-1)*v(1:j-1))./D(j,j);
 end
 error3=norm(L*D*L'-A0,2);
-[error1,y]=OKqiandaifa(L,b);
-[error2,x]=OKhuidaifa(D*L',y);
+[error1,y]=fwd_sub(L,b);
+[error2,x]=back_sub(D*L',y);
 error=norm(A0*x-b);
