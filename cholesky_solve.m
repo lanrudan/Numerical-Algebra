@@ -17,7 +17,7 @@ for k=1:n
         end
 end
 % error3=norm(A0-L*L',2);
-[error1,y]=OKqiandaifa(L,b);
-[error2,x]=OKhuidaifa(L',y);
+[error1,y]=fwd_sub(L,b);
+[error2,x]=back_sub(L',y);
 error=norm(A0*x-b,2);
 
