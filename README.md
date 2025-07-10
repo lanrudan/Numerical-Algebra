@@ -8,6 +8,10 @@ $\bullet$ [gaussian_elimination_complete_pivoting](gaussian_elimination_complete
 $\bullet$ [gaussian_elimination_pivoting](gaussian_elimination_pivoting.m)：列主元高斯消元法，用于求解**一般线性方程组**。  
 $\bullet$ [cholesky_solve](cholesky_solve.m)：Cholesky分解算法，用于高效地求解**对称正定线性方程组**。  
 $\bullet$ [ldlt_decomposition](ldlt_decomposition.m)： $LDL^T$ 分解（LDL Transpose Decomposition）算法，对**对称正定矩阵**进行分解，并利用分解结果来高效地求解线性方程组 $Ax=b$。  
+$\bullet$ [hager_norm_estimator](hager_norm_estimator.m)：用于迭代估计**矩阵逆的1-范数**。  
 $\bullet$ [householder_transform](householder_transform.m)：**Householder变换**，用于根据输入向量构造豪斯霍尔德矩阵。  
-$\bullet$ [givens_rotation](givens_rotation.m)：**Givens旋转**的核心计算，用于根据两个数值生成旋转矩阵的余弦和正弦因子。
-$\bullet$ [gauss_seidel_iteration](gauss_seidel_iteration.m)：**高斯-赛德尔迭代法**，用于迭代求解线性方程组。
+$\bullet$ [givens_rotation](givens_rotation.m)：**Givens旋转**的核心计算，用于根据两个数值生成旋转矩阵的余弦和正弦因子。  
+$\bullet$ [qr_decomposition_householder](qr_decomposition_householder.m)：**基于Householder变换的QR分解**，并利用分解结果求解线性方程组。  
+$\bullet$ [jacobi_iteration](jacobi_iteration.m)：**Jacobi迭代法**，用于迭代求解线性方程组。  
+$\bullet$ [gauss_seidel_iteration](gauss_seidel_iteration.m)：**高斯-赛德尔迭代法**，用于迭代求解线性方程组。  
+$\bullet$ [sor_iteration](sor_iteration.m)：**逐次超松弛 (SOR) 迭代法**，用于迭代求解线性方程组。  
