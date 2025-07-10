@@ -9,4 +9,5 @@ $\bullet$ [gaussian_elimination_pivoting](gaussian_elimination_pivoting.m)：列
 $\bullet$ [cholesky_solve](cholesky_solve.m)：Cholesky分解算法，用于高效地求解**对称正定线性方程组**。  
 $\bullet$ [ldlt_decomposition](ldlt_decomposition.m)： $LDL^T$ 分解（LDL Transpose Decomposition）算法，对**对称正定矩阵**进行分解，并利用分解结果来高效地求解线性方程组 $Ax=b$。  
 $\bullet$ [householder_transform](householder_transform.m)：**Householder变换**，用于根据输入向量构造豪斯霍尔德矩阵。  
+$\bullet$ [givens_rotation](givens_rotation.m)：**Givens旋转**的核心计算，用于根据两个数值生成旋转矩阵的余弦和正弦因子。
 $\bullet$ [gauss_seidel_iteration](gauss_seidel_iteration.m)：**高斯-赛德尔迭代法**，用于迭代求解线性方程组。
