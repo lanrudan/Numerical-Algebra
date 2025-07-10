@@ -1,6 +1,6 @@
 # Numerical-Algebra
 # 数值代数
-记录矩阵计算代码  
+### 算法来源于徐树方、高立、张平文等编著的《数值线性代数（第二版）》，北京师范大学出版社。
 $\bullet$ [fwd_sub](fwd_sub.m)：前代法解**下三角方程组**。  
 $\bullet$ [back_sub](back_sub.m)：回代法解**上三角方程组**。  
 $\bullet$ [naive_gaussian_elimination](naive_gaussian_elimination.m)：朴素高斯消元法，用于求解线性方程组。  
